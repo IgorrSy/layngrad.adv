@@ -244,6 +244,22 @@ nav {
     color: #888;
 }
 
+/* ESTILO DOS ÍCONES REAIS */
+.s-icon {
+    color: var(--gold); /* Usa o seu dourado champagne */
+    font-size: 2.5rem;   /* Tamanho do ícone */
+    margin-bottom: 25px; /* Espaço até o título H3 */
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;    /* Animação suave no hover */
+}
+
+/* Efeito ao passar o mouse no card: o ícone brilha sutilmente */
+.s-card:hover .s-icon {
+    transform: scale(1.1); /* Aumenta um pouquinho */
+    filter: drop-shadow(0 0 8px rgba(197, 160, 89, 0.5)); /* Brilho dourado */
+}
+
 /* FOOTER */
 
 .final-cta {
